@@ -1,0 +1,106 @@
+html, body, div{
+	margin:0px;
+	padding:0px;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+b{
+	margin:4px;
+	color:white;
+	}
+#topHalf{
+	margin-top:10px;
+	height:100px;
+	}
+.wrap{
+	width:960px;
+	margin-right:auto;
+	margin-left:auto;
+}
+#header{
+	margin-left:15px;
+	}
+#header img{
+	height:100%;
+	}
+#logo{
+	transition: all 0.5s;
+	}
+#logo:hover{
+	transform:rotate(-15deg);
+	-moz-transform:rotate(-15deg); /* Firefox */
+	-webkit-transform:rotate(-15deg); /* Safari and Chrome */
+}
+#loginbuttons{
+	position:relative;
+}
+.smallbutton{
+	position:absolute;
+	text-align:center;
+	right:0;
+	border: 2px solid #388E8E;
+    -moz-box-shadow:    1px 1px 1px 1px #388E8E;
+    -webkit-box-shadow: 1px 1px 1px 1px #388E8E;
+    box-shadow:         1px 1px 1px 1px #388E8E;
+    background-size: 100% 200%;
+    background-image: linear-gradient(to bottom, #70DBDB 50%, #388E8E 50%);
+    transition: background-position 0.3s;
+	width:70px;
+}
+
+.smallbutton:hover{
+    background-position: 0 -100%;
+	border-color:#70DBDB;
+	}
+.smallbutton:hover{
+	border: 2px solid #70DBDB;
+    -moz-box-shadow:    1px 1px 1px 1px #70DBDB;
+    -webkit-box-shadow: 1px 1px 1px 1px #70DBDB;
+    box-shadow:         1px 1px 1px 1px #70DBDB;
+   }
+
+
+
+.center{
+	text-align:center;
+	}
+
+#content{
+	text-align:center;
+	margin-top:10px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	padding:20px;
+	background-color:#e6d9b3;
+	border-radius:10px;
+	}
+.bigbox{
+	display:inline-block;
+	width:45%;
+	border:5px solid #388E8E;
+	background-color:#70DBDB;
+    background-size: 100% 200%;
+    background-image: linear-gradient(to bottom, #70DBDB 50%, #388E8E 50%);
+    transition: background-position 0.3s;
+	overflow:hidden;
+	}
+.bigbox h1{
+	color:white;
+	}
+#rightbb:hover{
+    background-position: 0 -100%;
+	border-color:#70DBDB;
+
+}
+#leftbb:hover{
+    background-position: 0 -100%;
+	border-color:#70DBDB;
+}
+
+#footer{
+	text-align:right;
+	}
+#footer p{
+	padding:0px;
+	}
