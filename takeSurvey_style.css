@@ -1,0 +1,35 @@
+#content p{
+	display:inline;
+	}
+#content input{
+	display:inline;
+	}
+#content b{
+	color:black;
+	}
+.smallbutton{
+	width:170px;
+	}
+#resultbutton{
+	margin-top:20px;
+	margin-bottom:20px;
+	margin-left:auto;
+	margin-right:auto;
+	width:150px;
+	border:5px solid #8B4789;
+	background-color:#ECC8EC;
+    background-size: 100% 200%;
+    background-image: linear-gradient(to bottom, #ECC8EC 50%, #8B4789 50%);
+    transition: background-position 0.3s;
+    }
+#resultbutton p{
+	color:black
+	}
+#resultbutton:hover p{
+color:white;
+}
+#resultbutton:hover{
+
+    background-position: 0 -100%;
+	border-color:#ECC8EC;
+	}
