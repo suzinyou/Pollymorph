@@ -1,0 +1,29 @@
+
+#content{
+	text-align:center;
+}
+.bigbox2 {
+	margin-top:0px;
+	text-align:left;
+	padding:20px;
+	box-sizing:border-box;
+-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	display:inline-block;
+    
+	width:48%;
+	height:500px;
+	background-color:#70DBDB;
+	border:5px solid #388E8E;
+}
+.bigbox2 h1{
+	color:#FFFFFF;
+}
+#leftblock p{
+	width:90px;
+	display:inline-block;
+}
+#rightblock p{
+	width:130px;
+	display:inline-block;
+}
